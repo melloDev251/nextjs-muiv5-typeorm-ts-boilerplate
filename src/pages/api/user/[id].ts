@@ -7,7 +7,7 @@ ensureConnection();
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<User>,
+  res: NextApiResponse<User>
 ) {
   const id = req.query.id as string;
 
